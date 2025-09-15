@@ -14,8 +14,11 @@ It cleans data with Python, encodes categorical variables, and prepares a datase
    ```bash
    pip install -r requirements.txt
 
+## 🏗️ Project Architecture
+
+```mermaid
 flowchart LR
-    A[Raw Dataset (CSV)] --> B[Python Preprocessing (ETL)]
-    B --> C[Processed Data (CSV)]
+    A[Raw Dataset CSV] --> B[Python Preprocessing ETL]
+    B --> C[Processed Data CSV]
     C --> D[Power BI Dashboard]
 
